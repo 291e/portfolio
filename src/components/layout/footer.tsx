@@ -6,8 +6,8 @@ export function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="w-full border-t bg-background py-8 mt-16">
-      <div className="container flex flex-col gap-8">
+    <footer className="w-full border-t bg-background flex justify-center">
+      <div className="container flex flex-col gap-4 py-4">
         <div className="flex flex-col md:flex-row justify-between gap-4">
           <div className="space-y-4">
             <h3 className="font-bold text-lg">Portfolio</h3>
