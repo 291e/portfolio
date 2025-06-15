@@ -1,5 +1,4 @@
-import Link from "next/link";
-import { Button } from "@/components/ui/button";
+import SendEmailForm from "../email/SendEmailForm";
 
 export function CtaSection() {
   return (
@@ -10,9 +9,7 @@ export function CtaSection() {
           <p className="text-muted-foreground">
             새로운 프로젝트나 협업 기회가 있으신가요? 언제든지 연락주세요!
           </p>
-          <Button size="lg" asChild>
-            <Link href="/contact">연락하기</Link>
-          </Button>
+          <SendEmailForm />
         </div>
       </div>
     </section>

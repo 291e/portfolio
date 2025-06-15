@@ -82,7 +82,7 @@ export function ProjectsSection() {
                     <h3 className="font-semibold text-xl line-clamp-1 mb-2">
                       {project.title}
                     </h3>
-                    <p className="text-sm text-muted-foreground line-clamp-3 mb-4">
+                    <p className="text-sm text-muted-foreground line-clamp-2 mb-4">
                       {project.description}
                     </p>
                     <div className="flex flex-wrap gap-2 mb-4">
@@ -206,7 +206,7 @@ export function ProjectsSection() {
                           href={selectedProjectDetail.demoUrl}
                           target="_blank"
                         >
-                          데모 보기
+                          배포 사이트 보기
                         </Link>
                       </Button>
                     )}
