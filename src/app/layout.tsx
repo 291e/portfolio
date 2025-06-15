@@ -18,7 +18,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://leegyuwon.site"),
   title: {
-    default: "포트폴리오 | 개발자 프로필",
+    default: "포트폴리오 | 개발자 이규원",
     template: "%s | 개발자 포트폴리오",
   },
   description:
@@ -43,13 +43,13 @@ export const metadata: Metadata = {
     type: "website",
     locale: "ko_KR",
     url: "https://leegyuwon.site",
-    title: "포트폴리오 | 개발자 프로필",
+    title: "포트폴리오 | 개발자 이규원",
     description:
-      "프론트엔드 개발자 포트폴리오 사이트입니다. React, Next.js, TypeScript 등 다양한 기술 스택을 활용한 프로젝트를 소개합니다.",
+      "프론트엔드 개발자 이규원 포트폴리오 사이트입니다. Next.js, TypeScript 등 다양한 기술 스택을 활용한 프로젝트를 소개합니다.",
     siteName: "개발자 포트폴리오",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "/main/og.png",
         width: 1200,
         height: 630,
         alt: "개발자 포트폴리오",
@@ -58,10 +58,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "포트폴리오 | 개발자 프로필",
+    title: "포트폴리오 | 개발자 이규원",
     description:
-      "프론트엔드 개발자 포트폴리오 사이트입니다. React, Next.js, TypeScript 등 다양한 기술 스택을 활용한 프로젝트를 소개합니다.",
-    images: ["/og-image.jpg"],
+      "프론트엔드 개발자 이규원 포트폴리오 사이트입니다. Next.js, TypeScript 등 다양한 기술 스택을 활용한 프로젝트를 소개합니다.",
+    images: ["/main/og.png"],
     creator: "@leegyuwon",
   },
   robots: {
@@ -77,8 +77,8 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: "/favicon.ico",
-    shortcut: "/favicon-16x16.png",
-    apple: "/apple-touch-icon.png",
+    shortcut: "/main/og.png",
+    apple: "/main/og.png",
   },
   manifest: "/site.webmanifest",
   verification: {
