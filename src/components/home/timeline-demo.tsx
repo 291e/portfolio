@@ -152,7 +152,7 @@ export function TimelineSection() {
   ];
 
   return (
-    <section>
+    <section className="px-4 md:px-0">
       <div className="max-w-7xl mx-auto md:px-8 lg:px-10">
         <div className="text-center max-w-3xl mx-auto">
           <h2 className="text-3xl font-bold tracking-tight mb-4">

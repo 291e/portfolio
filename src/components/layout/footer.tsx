@@ -7,7 +7,7 @@ export function Footer() {
 
   return (
     <footer className="w-full border-t bg-background flex justify-center">
-      <div className="container flex flex-col gap-4 py-4">
+      <div className="container flex flex-col gap-4 p-4 items-center">
         <div className="flex flex-col md:flex-row justify-between gap-4">
           <div className="space-y-4">
             <h3 className="font-bold text-lg">Portfolio</h3>
@@ -29,30 +29,6 @@ export function Footer() {
                     홈
                   </Link>
                 </li>
-                <li>
-                  <Link
-                    href="/projects"
-                    className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-                  >
-                    프로젝트
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/skills"
-                    className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-                  >
-                    스킬
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/contact"
-                    className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-                  >
-                    연락처
-                  </Link>
-                </li>
               </ul>
             </div>
 
@@ -61,7 +37,7 @@ export function Footer() {
               <ul className="space-y-2">
                 <li>
                   <a
-                    href="mailto:example@example.com"
+                    href="mailto:yko03211@gmail.com"
                     className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                   >
                     이메일
@@ -69,7 +45,7 @@ export function Footer() {
                 </li>
                 <li>
                   <a
-                    href="tel:+821012345678"
+                    href="tel:+821094782790"
                     className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                   >
                     전화번호
