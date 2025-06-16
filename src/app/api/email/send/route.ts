@@ -9,7 +9,7 @@ export async function POST(req: NextRequest) {
     const { email, subject, html } = await req.json();
 
     const data = await resend.emails.send({
-      from: "noreply@leegyuwon.site", // Resend에 등록된 도메인
+      from: "onboarding@resend.dev", // Resend에 등록된 도메인
       to: email,
       subject,
       html,
