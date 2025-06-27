@@ -111,11 +111,11 @@ export function ProjectsSection() {
           <CarouselNext className="hidden md:flex" />
         </Carousel>
 
-        <div className="text-center pt-8">
+        {/* <div className="text-center pt-8">
           <Button asChild>
             <Link href="/projects">모든 프로젝트 보기</Link>
           </Button>
-        </div>
+        </div> */}
 
         <Dialog
           open={selectedProject !== null}
