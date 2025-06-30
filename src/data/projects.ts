@@ -114,4 +114,21 @@ export const projects: Project[] = [
     ],
     image: "/projects/project8.png",
   },
+  {
+    id: 9,
+    title: "BogoFit Shop",
+    description:
+      "BogoFit Shop은 AI 가상 피팅 기술을 중심으로 한 혁신적인 쇼핑몰 플랫폼입니다. 사용자가 실제로 옷을 입어보지 않고도 AI를 통해 가상으로 착용해볼 수 있는 차세대 온라인 쇼핑 경험을 제공합니다.",
+    tech: [
+      "Next.js 14",
+      "TypeScript",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Zustand",
+      "shadcn/ui",
+      "Prisma",
+      "Toss Payments API",
+    ],
+    image: "/projects/project13.png",
+  },
 ];

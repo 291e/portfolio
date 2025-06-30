@@ -314,4 +314,31 @@ export const projectDetails: ProjectDetail[] = [
     githubUrl: "https://github.com/NathanJeong/idoo-mushroom.git",
     demoUrl: "https://maison.trusong.com/ko",
   },
+  {
+    id: 9,
+    title: "BogoFit Shop",
+    description:
+      "BogoFit Shop은 AI 가상 피팅 기술을 중심으로 한 혁신적인 쇼핑몰 플랫폼입니다. 사용자가 실제로 옷을 입어보지 않고도 AI를 통해 가상으로 착용해볼 수 있는 차세대 온라인 쇼핑 경험을 제공합니다.",
+    tech: [
+      "Next.js 14",
+      "TypeScript",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Zustand",
+    ],
+    image: "/projects/project13.png",
+    features: ["AI 가상 피팅 기술", "쇼핑몰 플랫폼", "온라인 쇼핑 경험"],
+    challenges: [
+      "메타뱅크 자체제작 AI 가상 피팅 기술 구현",
+      "쇼핑몰 플랫폼 구현",
+      "온라인 쇼핑 경험 구현",
+    ],
+    solutions: [
+      "AI 가상 피팅 기술 구현",
+      "쇼핑몰 플랫폼 구현",
+      "온라인 쇼핑 경험 구현",
+    ],
+    githubUrl: "https://github.com/291e/bogofit-shop",
+    demoUrl: "https://shop.bogofit.kr/",
+  },
 ];
